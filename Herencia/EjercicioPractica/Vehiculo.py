@@ -3,6 +3,8 @@ class Vehiculo:
         self.color= color
         self.ruedas = ruedas
 
+
+
     def __str__(self):
         return(f"Color: {self.color}\n"
          f"Ruedas: {self.ruedas}")
